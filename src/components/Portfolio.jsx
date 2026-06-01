@@ -9,6 +9,7 @@ const CATEGORIES = [
   'Posters',
   'Brochures',
   'Name boards',
+  'Logos',
 ];
 
 /** Real work from `src/assets` (see `portfolio/buildWorkProjects.js`). */
@@ -152,8 +153,8 @@ export default function Portfolio() {
               Selected work
             </motion.span>
             <motion.h2 variants={fadeUp} className="section-title mt-4">
-              Posters, brochures,{' '}
-              <span className="font-serif italic">name boards.</span>
+              Posters, brochures, name boards,{' '}
+              <span className="font-serif italic">logos.</span>
             </motion.h2>
             <motion.p
               variants={fadeUp}

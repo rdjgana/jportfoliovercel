@@ -81,6 +81,12 @@ const nameBoardUrls = sortedUrls(
     import: 'default',
   })
 );
+const logoUrls = sortedUrls(
+  import.meta.glob('../assets/Logo work/*.{jpg,jpeg,png,JPG,JPEG,PNG}', {
+    eager: true,
+    import: 'default',
+  })
+);
 
 function projectFromUrls({
   id,
@@ -161,5 +167,20 @@ export const WORK_PROJECTS = [
     bg: 'from-[#170611] via-[#EC7FA9] to-[#FFEDFA]',
     glyph: '▣',
     urls: nameBoardUrls,
+  }),
+  projectFromUrls({
+    id: 'work-logos',
+    title: 'Logos',
+    client: 'Brand marks & identities',
+    summary:
+      'Logo design for businesses, institutions, and personal brands — distinctive marks built for print, signage, and screen.',
+    scope: 'Logo · Identity',
+    category: 'Logos',
+    year: 'Gallery',
+    span: '',
+    aspect: 'aspect-square',
+    bg: 'from-[#170611] via-[#A04E72] to-[#FFEDFA]',
+    glyph: '◆',
+    urls: logoUrls,
   }),
 ].filter((p) => p.gallery.length > 0);
