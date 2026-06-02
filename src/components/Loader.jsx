@@ -33,7 +33,7 @@ export default function Loader({ done }) {
             </div>
 
             <div className="flex h-7 overflow-hidden font-display text-base font-medium tracking-[0.2em] uppercase">
-              {'Jacitha'.split('').map((c, i) => (
+              {'Jacintha'.split('').map((c, i) => (
                 <motion.span
                   key={i}
                   initial={{ y: '110%' }}

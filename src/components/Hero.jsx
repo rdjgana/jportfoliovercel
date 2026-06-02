@@ -119,7 +119,7 @@ export default function Hero() {
               variants={fadeUp}
               className="text-balance max-w-xl text-base leading-relaxed text-ink/75 md:col-span-6 md:text-lg"
             >
-              I'm <span className="font-medium text-ink">Jacitha</span> — a
+              I'm <span className="font-medium text-ink">Jacintha F</span> — a
               graphic designer crafting brand systems, posters, brochures, and
               name boards for businesses and growing brands.
             </motion.p>

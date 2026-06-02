@@ -49,7 +49,7 @@ export default function Navbar() {
               <span className="absolute inset-0 origin-left scale-x-0 bg-accent transition-transform duration-500 group-hover:scale-x-100" />
             </span>
             <span className="hidden font-display text-base font-semibold tracking-tight sm:block">
-              Jacitha
+            Jacintha F
             </span>
           </a>
 

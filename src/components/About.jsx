@@ -8,6 +8,7 @@ const SKILLS = [
   'Posters',
   'Brochures',
   'Name boards',
+  "Logo design",
 ];
 
 const STATS = [
