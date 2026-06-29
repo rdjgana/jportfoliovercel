@@ -43,7 +43,7 @@ function ProjectCard({ project, index, onOpen }) {
         ease: [0.22, 1, 0.36, 1],
         delay: Math.min(index * 0.06, 0.36),
       }}
-      className={`group relative overflow-hidden rounded-3xl border border-ink/10 bg-white/40 ${project.span}`}
+      className={`group relative h-fit self-start overflow-hidden rounded-3xl border border-ink/10 bg-white/40 ${project.span}`}
     >
       <button
         type="button"
@@ -193,7 +193,7 @@ export default function Portfolio() {
 
         <motion.div
           layout
-          className="grid auto-rows-[minmax(0,1fr)] grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:grid-flow-dense lg:gap-6"
+          className="grid grid-cols-1 items-start gap-4 md:grid-cols-2 lg:grid-cols-3 lg:grid-flow-dense lg:gap-6"
         >
           <AnimatePresence mode="popLayout">
             {visible.map((p, i) => (
